@@ -1,0 +1,46 @@
+.modaal-venster{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color:rgba(0,0,0,0.8);
+    cursor: pointer;
+}
+
+
+
+.modaal-inhoud{
+    background-color: white;
+    margin: auto;
+    margin-top: 10%;
+    cursor: default;
+}
+
+.modaal-inhoud img{
+    width: 95%;
+    margin-left:2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+
+
+.sluit-knop{
+    margin-left: 95%;
+    color: red;
+
+    border-radius: 10px;
+
+    width: 100%;
+    cursor: pointer;
+}
+
+.sluit-knop:hover{
+    background-color: dodgerblue;
+    color: black;
+}
+

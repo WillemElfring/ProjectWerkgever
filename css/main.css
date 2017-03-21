@@ -1,0 +1,50 @@
+.art{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.Artwork{
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+
+.img_home_top{
+    margin-left: 13.5%;
+}
+.home_left{
+    float: left;
+    margin-left: 13.5%;
+    width: 30%;
+    border:1px solid grey;
+
+}
+
+.home_right{
+    float: right;
+    margin-right: 12.5%;
+    width: 30%;
+    background-color: blue;
+}
+
+.home_right img{
+    width: 100%;
+    margin-left: 0px;
+    padding-bottom: 5%;
+
+}
+
+#home1{
+    margin-left: 13.5%;
+}
+
+.plaatje{
+    cursor: pointer;
+}
+
+img{
+    cursor: pointer;
+}
+
