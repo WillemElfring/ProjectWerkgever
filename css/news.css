@@ -1,0 +1,142 @@
+body, html{ padding: 0px; margin: 0px; width: 100%; }
+
+
+#header{
+    height: 300px;
+}
+
+
+
+/*news 1*/
+
+#news_1{
+    background-image: url(http://www.showcase.ca/video/images/VideoNotAvailable.jpg);
+    height: 200px;
+    margin-bottom: 30px;
+    background-size: 120%;
+    background-position: center;
+    transition: background-size 0.2s;
+
+
+
+}
+
+#news_1:hover{
+    background-size: 120%;
+
+}
+
+
+
+
+/*eind news 1*/
+
+
+
+
+
+
+
+
+
+
+/*start news2*/
+
+#news_2{
+    background-image: url(http://www.showcase.ca/video/images/VideoNotAvailable.jpg);
+    height: 300px;
+    margin-bottom: 30px;
+    background-size: 120%;
+    background-position: center;
+    transition: background-size 0.2s;
+
+}
+
+#news_2:hover{
+    background-size: 100%;
+
+}
+
+
+
+/*eind news2*/
+
+
+
+
+
+
+
+
+
+/*start news3*/
+#news_3{
+    background-image: url(http://www.showcase.ca/video/images/VideoNotAvailable.jpg);
+    height: 300px;
+    margin-bottom: 30px;
+    background-size: 120%;
+    background-position: center;
+    transition: background-size 0.2s;
+
+}
+
+#news_3:hover{
+    background-size: 100%;
+
+}
+
+
+
+/*eind news3*/
+
+
+/*start news4*/
+
+
+
+
+
+
+
+
+
+
+#news_4{
+    background-image: url(http://www.showcase.ca/video/images/VideoNotAvailable.jpg);
+    height: 200px;
+    margin-bottom: 30px;
+    background-size: 120%;
+    background-position: center;
+    transition: background-size 0.2s;
+
+
+
+}
+
+#news_4:hover{
+    background-size: 100%;
+
+}
+
+
+
+#news_4:hover #title_news_4{
+    color: rgba(0,0,0,1);
+}
+
+/*eind news4*/
+
+.title{
+    color: transparent;
+    padding: 10px;
+    transition: color 0.5s;
+}
+
+#news_1:hover .title, #news_2:hover .title, #news_3:hover .title, #news_4:hover .title {
+    color: white;
+}
+
+
+
+/*Bavkgrounc class*/
+

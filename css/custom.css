@@ -1,0 +1,42 @@
+.navbar-default {
+    background: #34495e !important;
+    height: 20px;
+    border-style: none;
+    z-index: 1000
+}
+
+.glyphicon.glyphicon-home {
+    font-size: 15px;
+}
+
+.navbar {
+    border-radius:0px;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+
+}
+
+.navbar-nav li a:hover{
+    padding-top: 20px !important;
+    color: lightgoldenrodyellow !important;
+
+}
+
+.navbar-nav li a{
+    transition: padding-top 0.1s;
+    color: white !important;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.col-sm-12 {
+    margin-top: 50px;
+}
+

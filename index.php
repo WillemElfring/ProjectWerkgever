@@ -19,16 +19,53 @@ $action=isset($_GET['action'])?$_GET['action']:'home';
 switch($action){
     
     case 'home':
+        $templateParser->display('head.tpl');
         $templateParser->display('home.tpl');
+        $templateParser->display('footer.tpl');
         break;
     case 'art':
-        include 'model/select_all_items.php';
-        $templateParser->assign('result',$result);
+
+
+        include 'model/get_allAlbums.php';
+        $albumItemList = [];
+
+        foreach ($albumList as $album){
+            include 'model/select_album.php';
+            $album['items'] = $items;
+            $albumItemList[] = $album;
+        }
+//        echo '<pre>';
+//
+//        print_r($albumItemList);
+//        echo '</pre>';
+
+        $templateParser->assign('getAlbum',$albumItemList);
+
+        $templateParser->display('head2.tpl');
+
         $templateParser->display('art.tpl');
+        $templateParser->display('footer.tpl');
 
         break;
     case 'news':
+        $templateParser->display('head2.tpl');
         $templateParser->display('news.tpl');
+        $templateParser->display('footer.tpl');
+
+        break;
+
+    case 'contact':
+        $templateParser->display('head2.tpl');
+        $templateParser->display('contact.tpl');
+        $templateParser->display('footer.tpl');
+
+        break;
+
+    case 'about':
+        $templateParser->display('head2.tpl');
+        $templateParser->display('about.tpl');
+        $templateParser->display('footer.tpl');
+
         break;
 }
 
